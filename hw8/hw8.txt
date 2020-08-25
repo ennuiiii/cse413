@@ -1,0 +1,39 @@
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x64-mingw32]
+
+C:\Users\yuqiu>cd Desktop\cse413
+
+C:\Users\yuqiu\Desktop\cse413>ruby calc.rb
+3 + 3 - 3 + 2
+5.0
+
+a = 3
+
+a sets to be : 3.0
+
+
+a + 2
+5.0
+
+sqrt(4)
+2.0
+
+list
+PI : 3.141592653589793
+a : 3.0
+
+
+clear a
+value deleted : a
+
+
+list
+PI : 3.141592653589793
+
+
+(2 * 3 * 2) / (1 + 5)
+2.0
+
+exit
+Calculator terminated...
+
+C:\Users\yuqiu\Desktop\cse413>

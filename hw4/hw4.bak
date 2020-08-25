@@ -1,0 +1,9 @@
+#lang racket
+
+;; Homework # 4
+;; Qiubai Yu
+;; 1663777
+
+(provide (all-defined-out))
+
+(define ones (lambda () (cons 1 ones)))

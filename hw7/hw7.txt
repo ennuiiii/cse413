@@ -1,0 +1,49 @@
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x64-mingw32]
+
+C:\Users\yuqiu>cd Desktop\cse413
+
+C:\Users\yuqiu\Desktop\cse413>ruby hw7.rb
++-*/*******
+ADD(+)
+SUB(-)
+MUL(*)
+DIV(/)
+POW(**)
+POW(**)
+POW(**)
+MUL(*)
+
+I met a superhero
+ID(I)
+ID(met)
+ID(a)
+ID(superhero)
+
+133333.
+NUMBER(133333.)
+
+133333e-
+NUMBER(133333)
+ID(e)
+SUB(-)
+
+list sqrt clear
+LIST(list)
+SQRT(sqrt)
+CLEAR(clear)
+
+()()()()(
+LPAREN(()
+RPAREN())
+LPAREN(()
+RPAREN())
+LPAREN(()
+RPAREN())
+LPAREN(()
+RPAREN())
+LPAREN(()
+
+quit
+quit/exit command given, ending...
+
+C:\Users\yuqiu\Desktop\cse413>

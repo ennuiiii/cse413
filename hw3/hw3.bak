@@ -1,0 +1,18 @@
+#lang racket
+
+;; Homework # 3
+;; Qiubai Yu
+;; 1663777
+;; qiubay
+
+(define (diff-sum x E))
+
+(define (diff-product x E))
+
+(define (diff-expt x E))
+
+;; Dispatch Table of supported operators
+(define diff-dispatch
+  (list (list '+ diff-sum)
+        (list '* diff-product)
+        (list 'expt diff-expt)))

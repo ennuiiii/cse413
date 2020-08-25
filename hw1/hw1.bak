@@ -1,0 +1,38 @@
+; Name: Qiubai Yu
+; UWNetid: qiubay
+
+#lang racket
+
+(provide (all-defined-out))
+
+; Question #1
+
+; helper method factorial
+(define (fact n)
+  (if (< n 2)
+      1
+      (* n (fact (- n 1)))))
+
+(define (comb n k)
+  (/ (fact n) (* (fact k) (fact (- n k)))))
+
+; Question #2
+
+; helper method return the length of the list
+(define (length lst)
+  (if (null? lst)
+  0
+  (+ 1 (length (cdr lst)))))
+
+; helper method return whether the list is not empty
+(define (isNotEmpty lst)
+  (if (= 0 (length lst))
+      #f
+      #t))
+
+(define (zip lst1 lst2)
+  (cond [(and (isNotEmpty lst1) (isNotEmpty lst2))
+         (append (cons (car lst1) (car lst2)) (zip (cdr lst1) (cdr lst2)))]
+        [(isNotEmpty lst1) (append lst1)]
+        [else (append lst2)]))
+  
